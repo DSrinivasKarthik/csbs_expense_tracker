@@ -39,7 +39,7 @@ function EditExpenseForm({ expense, onUpdateExpense, onClose }) {
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit">Save Changes</button>
+        <button type="submit" className='button-17'>Save Changes</button>
       </form>
     </div>
   );

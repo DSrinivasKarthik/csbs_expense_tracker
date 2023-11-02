@@ -4,11 +4,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 import "./style.css";
 import photo from './photo.jpg';
+import { HelmetProvider } from "react-helmet-async";
 
 function Services() {
   let message = `Hey there! I'm the guy behind this college project. \n I'm all about creativity, learning, and having a great time while working on cool stuff. Join me on this journey`;
 
   return (
+    <HelmetProvider>
     <section className="section-white">
       <div className="container">
         <div className="row justify-content-center">
@@ -52,6 +54,7 @@ function Services() {
         </div>
       </div>
     </section>
+    </HelmetProvider>
   );
 }
 

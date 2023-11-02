@@ -137,13 +137,17 @@ function ExpenseTable({ section, selectedSubsection, expenses, onUpdateExpense, 
               <Td>
                 {editableIndex === index ? (
                   <>
-                    <button onClick={handleSaveClick}>Save</button>
-                    <button onClick={() => setEditableIndex(null)}>Cancel</button>
+                    <button onClick={handleSaveClick} className='button-17'>Save</button>
+                    <button onClick={() => setEditableIndex(null)} className='button-17'>Cancel</button>
                   </>
                 ) : (
                   <>
-                    <button onClick={() => handleEditClick(index)}>Edit</button>
-                    <button onClick={() => handleDeleteClick(expense.id)}>Delete</button>
+                  
+                    <button onClick={() => handleEditClick(index) } className='button-17'>Edit </button> 
+                    
+                    
+                    <button onClick={() => handleDeleteClick(expense.id)} className='button-17'>Delete</button>
+                    
                   </>
                 )}
               </Td>

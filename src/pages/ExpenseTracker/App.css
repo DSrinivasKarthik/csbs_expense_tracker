@@ -57,6 +57,7 @@ p {
   max-width: 100%;
   overflow: visible;
   padding: 2px 24px;
+  margin: 10px;
   position: relative;
   text-align: center;
   text-transform: none;
@@ -70,8 +71,8 @@ p {
 }
 
 .button-17:hover {
-  background: #F6F9FE;
-  color: #174ea6;
+  background: #ffeba7;
+  color: black;
 }
 
 .button-17:active {
@@ -81,7 +82,7 @@ p {
 
 .button-17:focus {
   outline: none;
-  border: 2px solid #4285f4;
+  border: 2px solid #ffeba7;
 }
 
 .button-17:not(:disabled) {
@@ -146,6 +147,7 @@ select {
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  background-color: #ffeba7;
 }
 
 /* Tables */
@@ -174,7 +176,7 @@ tr.active-row {
 }
 
   tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #ffeba7;
 }
 th, td {
   border: 1px solid;
@@ -192,4 +194,8 @@ th {
   .container {
     padding: 10px;
   }
+}
+
+button{
+  color: #009879;
 }

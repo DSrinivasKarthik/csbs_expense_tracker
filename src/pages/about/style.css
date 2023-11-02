@@ -100,12 +100,12 @@
 }
 
 .section-white {
-	background: #000000;
+	background: var(--bg-color);
 	padding: 70px 0;
 }
 
 .team-item{
-	background: #f4f5f6;
+	background: var(--secondary-color);
 	text-align:center;
 	margin:20px 0;
 	padding:50px 20px 40px 20px;
@@ -115,7 +115,7 @@
 	-ms-transition: all 0.25s ease-in-out;
 	-o-transition: all 0.25s ease-in-out;
 	transition: all 0.25s ease-in-out;
-    color:#000000;
+    color:var(--bg-color);
 }
 
 .team-item:hover{
@@ -125,7 +125,7 @@
 
 .team-item h3{
 	margin:20px 0 1px 0!important;
-	color:#454545;
+	color:var(--bg-color);
 	font-size:18px;
 	font-weight: 700;
 	text-transform:uppercase;
@@ -148,11 +148,11 @@
 }
 
 .team-info p{
-	color:black;
+	color:var(--bg-color);
 	font-style:italic;
 }
 .team-info:hover p{
-color: white;
+color: var(--text-color);
 }
 
 .team-info::after {
@@ -201,11 +201,11 @@ ul.team-icon li a{
 	line-height: 18px;
 	background-color: #fff;
 	border-radius: 50%;
-	color:#fff;
+	color:var(--secondary-color);
 }
 
 ul.team-icon li a{
-	background-color: black;
+	background-color: var(--bg-color)
 }
 
 ul.team-icon li a.pinterest{
@@ -221,7 +221,7 @@ ul.team-icon li a.dribble{
 }
 
 .team-icon li a:hover{
-	color:#dedede;
+	color:var(--secondary-color);
 	-webkit-transition: all 0.25s ease-in-out;
 	-moz-transition: all 0.25s ease-in-out;
 	-ms-transition: all 0.25s ease-in-out;
