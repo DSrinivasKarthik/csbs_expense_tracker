@@ -47,11 +47,7 @@ This project leverages [React](https://reactjs.org/) and [React Router](https://
 
 - Automatically calculate the total amount spent and the remaining balance for each subsection, helping you stay within budget.
 
-### 8. Visual Reports
-
-- Visualize your spending patterns and financial health with interactive charts and dynamic reports.
-
-### 9. Responsive Design
+### 8. Responsive Design
 
 - Enjoy a consistent user experience across various devices, thanks to a responsive design that adapts to different screen sizes.
 
@@ -107,8 +103,8 @@ To run the Expense Tracker Web Application on your local machine, follow these s
 
 5. **Budget Monitoring:**
 
-   - Real-time calculations ensure you remain within set budgets. Visual reports and charts offer a clear financial overview.
-
+   - Real-time calculations ensure you remain within set budgets.
+     
 6. **Navigation:**
 
    - Seamlessly switch between sections and subsections to efficiently manage and monitor your expenses.
